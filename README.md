@@ -1,4 +1,4 @@
-# État d'Espirt/Mindset de développeurs.euses
+# État d'Esprit/Mindset de développeurs.euses
 
 ## Tableau de bord
 
@@ -10,10 +10,10 @@
 
 ### Liste complète des articles (ord. alphab.)
 
+- [Avant de demander de l'aide](avant_de_demander_de_l_aide.md)
 - [Comment aider les autres](comment_aider_les_autres.md)
 - [Demander de l'aide](demander_de_l_aide.md)
 - [Introduction au métier de Développeur Web](introduction_metier_developpeur_web.md)
-- [Poser des questions techniques](poser_des_questions_techniques.md)
 
 ## Contributions
 
