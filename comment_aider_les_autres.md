@@ -4,78 +4,40 @@
 
 # Comment aider les autres à résoudre des problèmes de codage
 
-1. **Guidez-les vers la réponse au lieu de répondre directement**
+## Approche générale
 
-À moins que le problème ne soit une simple faute de frappe ou une erreur de syntaxe, il est plus bénéfique de les guider pour qu'ils trouvent leur propre réponse. Cette approche favorise le développement de compétences efficaces en débogage et renforce leur capacité à résoudre des problèmes futurs.
+- **Guider, ne pas donner la réponse** : encouragez l'autonomie, donner des indices, les documentations sur lesquelles trouver la solution.
+- **Posez des questions** : "Qu'as-tu essayé ?", "Que devrait faire cette fonction ?", "Que signifie cette erreur ?"
 
-Commencez par poser des questions d'approfondissement, telles que "Qu'avez-vous déjà essayé ?", "Que pensez-vous que cette fonction devrait faire ?", ou "Que pensez-vous que cette erreur signifie ?".
+## Règles de conduite
 
-2. **N'aidez que lorsque vous êtes certain de la réponse**
+- **Aider uniquement si vous êtes sûr de connaître la réponse ou l'indice** : évitez de répondre si vous doutez de votre réponse
+- **Priorité à une personne** : n'intervenez pas si quelqu'un d'autre aide déjà, à moins que ça ne soit demandé
+- **Disponibilité** : assurez-vous d'avoir suffisamment de temps pour aider, ou indiquez que vous ne pourrez pas aider plus longuement
 
-Si vous n'êtes pas sûr à 100% de la réponse, vous risquez de faire plus de mal que de bien, alors laissez quelqu'un d'autre répondre.
+## Adaptation et clarification
 
-Ne vous inquiétez pas du temps d'attente pour avoir une réponse de la personne qui demande de l'aide : c'est peut-être "la bonne réponse", et elle vaut bien la peine d'attendre !
+- **Ajustez au niveau** : demandez leur niveau pour ajuster vos explications, comme "Es-tu familier avec ce concept ?", "As-tu déjà utilisé ce genre de fonction ?"
+- **Demandez des clarifications** : demandez des précisions, posez des questions si la demande est confuse. N'hésitez pas à rediriger vers [ce guide pour poser des questions claires](poser_des_questions_techniques.md).
 
-3. **Aidez uniquement lorsque personne d'autre n'est actuellement en train d'aider**
+## Partage de code
 
-Si quelqu'un reçoit déjà de l'aide, évitez de vous insérer dans la conversation. Nous savons que vous avez de bonnes intentions, mais il est difficile pour la personne qui reçoit de l'aide de suivre plusieurs conversations à la fois.
+- **Code en ligne** : si la question nécessite du code en ligne pour être pleinement comprise ou débuguée, demandez-leur d'utiliser par exemple :
+  - [CodePen](https://codepen.io/) pour le HTML/CSS/Javascript basique
+  - [Replit](https://replit.com/) pour Javascript/Ruby
+  - [CodeSandbox](https://codesandbox.io/) pour Webpack/React
+  - [Pastebin](https://pastebin.com/) pour les messages d'erreur
 
-4. **Aidez uniquement lorsque vous avez beaucoup de temps**
+## Recherche et autonomie
 
-Si vous n'avez pas beaucoup de temps pour aider, veuillez laisser quelqu'un d'autre répondre à la question.
+- **Encouragez la recherche** : ne répondez pas aux questions facilement trouvables en ligne, mais indiquez-leur qu'une recherche rapide sur le Web devrait leur donner une rapidementréponse
+- **Questions déjà répondues** : dirigez-les vers les messages qui traitent déjà du sujet, ou déjà étudiées
+- **Invitez-les à chercher d'abord de leur coté** : [ce guide sur quoi faire avant de demander de l'aide](avant_de_demander_de_l_aide.md) pourrait leur être utile
 
-5. **Ajustez vos attentes à leur niveau**
+## Gestion des sentiments
 
-Si la question ne révèle pas où ils en sont dans leur niveau de compétence, demandez-leur afin que vous puissiez ajuster vos attentes à leur niveau de connaissance (eg. inutile de demander si on aura correctement typé une variable si la personne demandant de l'aide n'a pas encore vu TypeScript).
-
-6. **Demandez des clarifications**
-
-Si la question semble confuse ou ambiguë, demandez des précisions ou suggérez poliment de consulter l'article "[Comment poser des questions techniques ?](poser_des_questions_techniques.md)".
-
-7. **Demandez du code en ligne**
-
-Si la question nécessite du code en ligne pour être pleinement comprise ou débuguée, demandez-leur d'utiliser [CodePen](https://codepen.io/) pour le HTML/CSS/Javascript basique, [Replit](https://replit.com/) pour Javascript/Ruby, [CodeSandbox](https://codesandbox.io/) pour Webpack/React ou [Pastebin](https://pastebin.com/) pour les messages d'erreur ou la sortie du serveur pour le fournir. Si le problème est difficile à isoler, ils devraient recréer le problème avec un code isolé.
-
-8. **Ne répondez pas aux questions qui peuvent être par une simple recherche en ligne**
-
-Apprendre à rechercher ces questions est une compétence très importante pour les développeurs, donc on doit les encourager à trouver leur propre réponse. Lorsqu'on répond à ces questions, cela ralenti (voire empêche) leur progression personnelle et les rend dépendants à l'aide d'une autre personne.
-
-Au lieu de répondre à ces questions, demandez-leur poliment de rechercher leur question sur Google ou d'utiliser la fonction de recherche de Discord (si vous en avez rejoint un) ou d'un autre site communautaire, avec les termes de recherche visés.
-
-9. **Ne répondez pas aux questions couvertes autre part.**
-
-Durant une initation, si vous savez que la réponse est fournie (dans le programme de l'école de formation suivie, ou en ligne comme W3School ou The Odin Project), demandez-leur où ils en sont dans leur apprentissage.
-
-S'ils n'ont pas encore abordé cette partie du programme, informez-les qu'ils la couvriront à l'avenir.
-
-S'ils ont déjà étudié cette partie du programme, suggérez-leur poliment de revoir cette leçon.
-
-10. **Répondez à la question avant de pointer d'autres problèmes**
-
-Cependant, concentrez-vous d'abord sur la question initiale avant de signaler d'autres problèmes nécessitant une attention.
-
-11. **Encouragez l'utilisation d'un débugueur**
-
-Il est courant que l'on ne comprenne pas l'importance d'utiliser un débugueur pour examiner les valeurs de leurs variables à différents points de leur programme. Lorsque quelqu'un obtient des valeurs inattendues, encourage-le gentiment à utiliser un débugueur. [Resource to be added 🚧]
-
-12. **Surveillez les personnes qui ont besoin de prendre du recul**
-
-Il arrive souvent que certaines personnes se concentrent trop sur un problème et perdent de vue l'ensemble. Lorsque cela se produit, encouragez-les poliment à prendre du recul par rapport au problème et à faire une pause. Souvent, prendre de la distance par rapport à un problème les aidera à voir la situation dans son ensemble et à trouver une solution !
-
-13. **Soyez attentif aux personnes qui se sentent dépassées**
-
-Il arrive souvent que certaines personnes sautent une étape, quelle soit organisationnelle (eg. faire le plan et la checklist d'un projet en construction) ou dans le code lui-même (eg. ne pas mettre une condition pour vérifier un input), ou qu'elles surestiment leurs connaissances. Lorsque cette situation se présente, encouragez-les gentiment à revenir en arrière et à relire ou refaire une section donnée pour mieux comprendre.
-
-14. **Reconnaissez les limites de vos connaissances**
-
-Il est fréquent que le problème réel dépasse la question initiale. Si cela dépasse vos connaissances actuelles, il est important d'admettre que vous n'êtes pas sûr de la réponse correcte et de laisser quelqu'un d'autre aider.
-
-Après avoir approfondi le problème, la personne demandant de l'aide pourrait être en mesure de continuer à débugguer par elle-même ou elle peut attendre que quelqu'un de plus expérimenté l'aide.
-
-15. **Soyez patient**
-
-Aider les autres à résoudre un problème n'est pas toujours facile. N'oubliez pas d'être patient alors qu'ils travaillent sur le problème.
-
-16. **Sortez de la conversation si vous êtes frustré**
-
-Parfois, il y a des malentendus et les interactions se passent mal. Vous n'êtes pas la personne concernée par le problème lorsque vous proposez votre aide et vous n'êtes pas obligé d'aider lorsque les choses deviennent incontrôlables. Retirez-vous poliment de la conversation et laissez quelqu'un d'autre prendre le relais. N'hésitez pas à contacter un modérateur pour passer le relais !
+- **Surcharge et confusion** : aidez à revenir en arrière ou à relire des sections qui ne sont peut-être pas claires
+- **Reconnaissance des limites** : soyez honnête sur vos connaissances et laissez la place à d'autres si nécessaire
+- **Prendre du recul** : vous comme la personne qui demande de l'aide à peut-être besoin de faire une pause pour une meilleure perspective sur le problème
+- **Patience** : soyez patient pendant le processus de résolution. Il n'est jamais simple de se sentir bloqué devant un problème
+- **Frustration** : si frustré, retirez-vous poliment et laissez une autre personne gérer
